@@ -168,7 +168,7 @@ display:flex;
 align-items:flex-start;
 padding-top:170px;
 padding-bottom:120px;
-background-image:url("..imgs/hero.png");
+background-image:url(".imgs/hero.png");
 background-size:cover;
 background-position:right center;
 overflow:hidden;
