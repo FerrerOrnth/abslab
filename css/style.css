@@ -168,7 +168,7 @@ display:flex;
 align-items:flex-start;
 padding-top:170px;
 padding-bottom:120px;
-background-image:url('../imgs/hero.png');
+background-image:url("/imgs/hero.png");
 background-size:cover;
 background-position:right center;
 overflow:hidden;
@@ -727,6 +727,9 @@ border:1px solid var(--border);
 border-radius:22px;
 padding:30px;
 transition:.35s ease;
+height: 100%;
+display: flex;
+flex-direction: column;
 }
 
 .catalog-card:hover{
@@ -752,6 +755,10 @@ font-weight:600;
 background:rgba(230,75,41,.08);
 border:1px solid rgba(230,75,41,.18);
 color:var(--green);
+}
+
+.catalog-body {
+    flex:1;
 }
 
 .catalog-body ul{
@@ -790,6 +797,10 @@ linear-gradient(
 rgba(230,75,41,.06),
 rgba(18,26,34,1)
 );
+}
+
+.catalog-grid {
+    align-items: stretch;
 }
 
 @media(max-width:1100px){
